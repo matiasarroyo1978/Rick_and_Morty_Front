@@ -40,7 +40,7 @@ function MyNavbar() {
               <img
                 src="img/landingPage.gif"
                 alt="Rick and Morty logo."
-                className="logo"
+                className="gif"
               />  
               </Navbar.Brand>
             </Navbar.Collapse>
