@@ -22,7 +22,7 @@ function Home() {
             <div className="btns-styles-home btn-home-cards"></div>
             <div className="btns-styles-home btn-hover-home-cards"></div>
             <Link className="a-cards" to="/rickandmorty">
-              <h2>cards</h2>
+              <h2>Cards</h2>
             </Link>
           </div>
 
@@ -34,7 +34,7 @@ function Home() {
             <div className="btns-styles-home btn-home-table "></div>
             <div className="btns-styles-home btn-hover-home-table"></div>
             <Link className="a-table" to="/table">
-            <h2>table</h2>
+            <h2>Users</h2>
             </Link>
           </div>
 
@@ -46,7 +46,7 @@ function Home() {
             <div className="btns-styles-home btn-home-form"></div>
             <div className="btns-styles-home btn-hover-home-form"></div>
             <Link className="a-form" to="/form">
-            <h2>form</h2>
+            <h2>Form</h2>
             </Link>
           </div>
         </div>

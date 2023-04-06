@@ -30,7 +30,7 @@ function MyNavbar() {
                   Form
                 </Nav.Link>
                 <Nav.Link as={Link} to="/table">
-                  Table
+                  Users
                 </Nav.Link>
                 <Nav.Link as={Link} to="/about">
                   About
