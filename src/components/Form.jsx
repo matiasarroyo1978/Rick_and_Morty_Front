@@ -66,15 +66,7 @@ const Form = () => {
 		document.querySelectorAll('.container-form-correct').forEach((icon) => {
 			icon.classList.remove('container-form-correct');
 		});
-	} /* else {
-		document.getElementById('empty-message-form').classList.add('empty-message-form-active');
-    setTimeout(() => {
-			document.getElementById('empty-message-form').classList.remove('empty-message-form-active');
-		}, 4000);
-	} */
-  
-  
-
+	} 
   const [input, setInput] = useState ({});
   
   const handleChange = (event) => {

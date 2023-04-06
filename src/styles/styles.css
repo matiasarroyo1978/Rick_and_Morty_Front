@@ -797,13 +797,13 @@ ul.pagination.my-4 {
 }
 /******* About *******/
 .about {
-  font-family: 'Lily Script One', cursive;
+  font-family: 'Creepster', cursive;
   position:relative;
   padding-top: 150px;
   background: linear-gradient(0deg, #22696e 0%, #212d35 70%, #212529 100%);
 }
 .about h2{
-  color: white;
+  color: rgb(7, 179, 73);
   text-align: center;
   text-justify: auto;
   text-shadow: 1px 1px #000;
@@ -813,7 +813,7 @@ ul.pagination.my-4 {
   margin-bottom: 20px;
 }
 .about h3{
-  color: white;
+  color: rgb(43, 230, 158);
   text-align: center;
   text-justify: auto;
   text-shadow: 1px 1px #000;

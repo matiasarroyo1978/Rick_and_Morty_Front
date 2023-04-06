@@ -7,10 +7,13 @@ const About = () =>{
     return(
         <Container fluid className="about d-grid">
             <Row>   
-                <h2>About Page</h2>
+                <h2>About Rick and Morty</h2>
             </Row>
             <Row>
-                <Col sm={9} >
+                <Col sm={2} >
+                    <img src="img/text_area.png" alt=""/>
+                </Col>    
+                <Col sm={10} >
                     <h3> Welcome to the about page of Rick and Morty, the beloved animated series that has captured the hearts of fans all over the world! Here, you'll find everything you need to know about the show, its creators, and the amazing universe they've built.
 
                     First and foremost, Rick and Morty is the brainchild of Justin Roiland and Dan Harmon. The show first premiered on Adult Swim in 2013, and has since become one of the most popular animated shows on television. The series follows the adventures of a brilliant but alcoholic scientist named Rick Sanchez and his well-meaning but often bumbling grandson, Morty Smith. Together, they explore other dimensions and encounter all kinds of strange and fascinating creatures.
@@ -23,10 +26,6 @@ const About = () =>{
 
                     </h3>
                 </Col>
-                <Col sm={3} >
-                    <img src="img/text_area.png" alt=""/>
-                </Col>    
-            
             </Row>
         </Container>
         )
