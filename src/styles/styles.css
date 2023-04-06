@@ -33,6 +33,7 @@
 }
 /******** Home *******/
 html,body{
+  font-family: 'Creepster', cursive;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -80,12 +81,15 @@ html,body{
   z-index: 2;
 }
 .a-form {
+  text-decoration: none !important;
   width: 100%;
 }
 .a-table {
+  text-decoration: none !important;
   width: 100%;
 }
 .a-cards {
+  text-decoration: none !important;
   width: 100%;
 }
 .container-btns-home .btn-home {
@@ -369,11 +373,6 @@ html,body{
 .checkedBtn:checked + label {
   background-color: #0b5ed7;
   color: white;
-}
-@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat:wght@300;500&family=Archivo:wght@500&family=Ubuntu:wght@400;700&display=swap");
-* {
-  box-sizing: border-box;
-  text-decoration: none !important; /* Para contrarestar bootstrap */
 }
 /******* Form *******/
 .mainFormContainer {
@@ -797,7 +796,6 @@ ul.pagination.my-4 {
 }
 /******* About *******/
 .about {
-  font-family: 'Creepster', cursive;
   position:relative;
   padding-top: 125px;
   background: linear-gradient(0deg, #22696e 0%, #212d35 70%, #212529 100%);
@@ -838,6 +836,7 @@ ul.pagination.my-4 {
 }
 /******* Footer *******/
 .text-footer a {
+  text-decoration: none !important;
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
