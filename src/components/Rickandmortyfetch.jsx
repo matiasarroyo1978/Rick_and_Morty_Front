@@ -16,8 +16,8 @@ function Rickandmortyfetch() {
     let { info, results } = fetchedData;
     let [loading, setLoading] = useState(false);
 
-    const URL_API = `https://rickandmortyapi.com/api/character/?key=6b3a8209f3b0.1c604142208b7d2313c0 page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`;
-    
+    const URL_API = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&key=6b3a8209f3b0.1c604142208b7d2313c0&name=${search}&status=${status}&gender=${gender}&species=${species}`;
+    // let URL_API = `https://rickandmortyapi.com/api/character/?page=${pageNumber}&name=${search}&status=${status}&gender=${gender}&species=${species}`;
     useEffect(() => {
         (async function () {
             setLoading(true)
