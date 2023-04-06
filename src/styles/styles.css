@@ -59,6 +59,7 @@ html,body{
   background: linear-gradient(0deg, #225f6e 0%, #213533 70%, #333f36 100%);
 }
 .container-text-home {
+  padding-top: 320px;
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -73,7 +74,8 @@ html,body{
   z-index: 2;
 }
 .title-home .img-title {
-  width: 70%;
+  
+width: 70%;
 }
 .container-btns-home {
   width: 100%;
