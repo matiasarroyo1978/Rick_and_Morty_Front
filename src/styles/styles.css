@@ -51,7 +51,7 @@ html,body{
   width: 100%;
   height: 100vh;
   display: flex;
-  background: linear-gradient(0deg, #22696e 0%, #212d35 70%, #212529 100%);
+  background: linear-gradient(0deg, #225f6e 0%, #213533 70%, #333f36 100%);
 }
 .container-text-home {
   display: flex;
@@ -799,7 +799,7 @@ ul.pagination.my-4 {
 .about {
   font-family: 'Creepster', cursive;
   position:relative;
-  padding-top: 150px;
+  padding-top: 125px;
   background: linear-gradient(0deg, #22696e 0%, #212d35 70%, #212529 100%);
 }
 .about h2{
@@ -807,7 +807,7 @@ ul.pagination.my-4 {
   text-align: center;
   text-justify: auto;
   text-shadow: 1px 1px #000;
-  font-size: 50px;
+  font-size: 63px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 20px;
@@ -817,7 +817,7 @@ ul.pagination.my-4 {
   text-align: center;
   text-justify: auto;
   text-shadow: 1px 1px #000;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 20px;
