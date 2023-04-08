@@ -5,23 +5,18 @@ const Footer = () => {
     <div>
       <footer className="text-white py-3 bg-dark">
         <div className="row mx-auto">
-          <div className="col font-weight-bold">
-            <img
+          <div className="col font-weight-bold text-footer">
+            <a 
+              href="https://github.com/matiasarroyo1978"
+              target="_blank"
+              rel="noreferrer">
+              <img
               src="img/icons8-github.svg"
               alt="GitHub logo."
               width="30px"
-            />
-            Developed by:
-          </div>
-          <div className="col text-footer">
-            <a
-              href="https://github.com/matiasarroyo1978"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Matias Arroyo - 2023
+              />
+            Developed by: Matias Arroyo - 2023
             </a>
-            
           </div>
           <div className="col btn-wha">  
           <a href="https://wa.me/3777516220" target="_blanck" rel="noopener noreferrer">
