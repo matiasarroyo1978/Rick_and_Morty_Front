@@ -1,19 +1,19 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Form from "./components/Form";
 import Table from "./components/Table";
 import About from "./components/About";
 import NotFound from "./components/NotFound";
+import Footer from "./components/Footer";
 import Rickandmortyfetch from "./components/Rickandmortyfetch";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
       <div className="App">
-        <Navbar />
+       <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/form" element={<Form />} />

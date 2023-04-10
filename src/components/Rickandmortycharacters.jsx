@@ -1,8 +1,7 @@
 import React from "react";
-
 const Characters = ({results}) => {
     let display;
-
+    
     if (results) {
         display = results.map(character=>{
             let {id, name, image, location, status} = character;
